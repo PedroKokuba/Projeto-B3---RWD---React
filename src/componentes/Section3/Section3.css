@@ -1,0 +1,41 @@
+.formas__investir{
+    background-color: var(--cor-3);
+    padding: 2em;
+    width: 80vw;
+    height: auto;
+    margin: 5em auto;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container img{
+    align-self: center;
+}
+
+.formas__investir__texto{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color:black;
+    row-gap: 50px;
+    margin-top: 50px;
+}
+
+.formas__investir ul li, .formas__investir__texto p{
+    text-align: left;
+}
+
+.formas__investir ul{
+    margin-left: 2em;
+}
+
+.formas__investir img{
+    width:10em;
+    box-sizing: border-box;
+    justify-self: center;
+}

@@ -1,0 +1,31 @@
+.secundario{
+    background-color: var(--cor-2);
+    width: 80vw;
+    height: auto;
+    color:var(--cor-3);
+    border-radius: 10px;
+    margin: 2em auto;
+    padding: 4em;
+}
+
+.secundario h2{
+    margin: 0 0 1.5em 2em;
+}
+
+.secundario__bloco{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+}
+
+.secundario__bloco__itens{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.secundario__bloco img{
+    width: 300px;
+    border-radius: 5px;
+}

@@ -1,0 +1,16 @@
+.prospecto{
+    text-align: left;
+    color:aliceblue;
+    margin: 5em auto 8em;
+    width:80vw;
+    height: auto;
+}
+
+.prospecto h2{
+    margin-left:2em;
+    color: #5B8FB9;
+}
+
+.prospecto ul{
+    margin-left: 2em;
+}

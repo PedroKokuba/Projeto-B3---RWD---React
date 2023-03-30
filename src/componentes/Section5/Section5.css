@@ -1,0 +1,17 @@
+.funcionamento__ipo{
+    color:aliceblue;
+    margin: 2em auto;
+    width:80vw;
+    height: auto;
+}
+
+.funcionamento__ipo h2{
+    color: #5B8FB9;
+    text-align: left;
+    margin: 2em 0em 2em 2em;
+}
+
+.setas{
+    transform: rotate(180deg);
+    margin: 1em 0;
+}

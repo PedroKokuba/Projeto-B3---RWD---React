@@ -1,0 +1,28 @@
+.ipo{
+    margin: 0em auto;
+    width:80vw;
+    height: auto;
+}
+
+.container__ipo{
+    background-color:#B6EADA ;
+    color: #000;
+    margin: auto;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 1em 0;
+}
+
+.container__ipo p {
+    text-align: left;
+    margin: 0em 3em 3em; 
+}
+
+.definicao__ipo {
+    margin: 3em 5em;
+    list-style-type: none;
+}
+
+.container__ipo img{
+    width: 350px;
+}

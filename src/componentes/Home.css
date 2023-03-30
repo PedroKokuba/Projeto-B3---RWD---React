@@ -1,0 +1,36 @@
+
+
+body{
+    color: #B6EADA;
+    height: 100%;
+}
+
+section{
+    text-align: center;
+    margin-top: 8em;
+}
+
+h1{
+    font-size: 2.5em;
+    font-style: none;
+    padding: 0.5em;
+}
+
+.container__abertura__subtitulo{
+    font-size: 1.2em;
+    padding-bottom: 0.5em;
+    margin-bottom: 2.5em;
+}
+
+.container__abertura__botao{
+    padding: 10px 20px;
+    background-color: #5587b0;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #B6EADA;
+    border-radius: 5px;
+}
+
+.container__abertura__botao:hover{
+    background-color: #1a8e6b;
+}
