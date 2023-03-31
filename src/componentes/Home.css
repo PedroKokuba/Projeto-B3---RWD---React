@@ -34,3 +34,64 @@ h1{
 .container__abertura__botao:hover{
     background-color: #1a8e6b;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+    h1{
+        font-size: 1.2em;
+    }
+
+    .container__abertura__subtitulo{
+        padding: 0.9em;
+        font-size: 0.8em;
+    }
+
+    .container__abertura__botao{
+        font-size: 1.1em;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) {
+    h1{
+        font-size: 1.2em;
+    }
+
+    .container__abertura__subtitulo{
+        padding: 0.9em;
+        font-size: 0.8em;
+    }
+
+    .container__abertura__botao{
+        font-size: 1.1em;
+    }
+}
+
+/*Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+    section{
+        margin-top: 6em;
+    }
+
+    .container__abertura__subtitulo{
+        padding: 1.1em;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+    section{
+        margin-top: 10em;
+    }
+
+    .container__abertura__subtitulo{
+        padding: 1.4em;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container__abertura__subtitulo{
+        padding: 1.7em;
+    }
+}

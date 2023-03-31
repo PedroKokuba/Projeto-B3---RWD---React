@@ -11,7 +11,7 @@ function Section7(){
                     <p className="chatbot__mensagem">Bem vindo ao chat! Como podemos te ajudar?</p>
                     <div className="barra__chatbot">
                         <div className="barra2__chatbot">
-                            <p>Digite aqui</p>
+                            <input type="text" placeholder='Digite aqui: '/>
                         </div>
                     </div>
                 </div>

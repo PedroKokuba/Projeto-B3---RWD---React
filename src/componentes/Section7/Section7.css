@@ -15,7 +15,7 @@
     margin-top: 4em;
     display: flex;
     flex-direction: column-reverse;
-        border-radius: 10px;
+    border-radius: 10px;
 }
 
 .chatbot__mensagem{
@@ -31,27 +31,54 @@
 .barra__chatbot{
     width: 75vw;
     height: 5vh;
-    border-radius: 10px;
-    background-color: #4D7A9D;
-    align-self: center;
-    margin: 1em auto 0;
-    display: flex;
-    justify-content: center;
+    margin: 1em auto 0.4em;
 }
 
 .barra2__chatbot{
-    width: 73vw;
-    height: 3vh;
+    width: 100%;
+    height: 100%;
     background-color: #5B8FB9;
     border-radius: 5px;
-    margin: auto;
+    margin: 1em auto 0.4em;
     display: flex;
 }
 
-.barra2__chatbot p{
-    font-size:0.6em;
-    margin-left: 1em;
-    font-style: italic;
-    color:aliceblue;
-    opacity: 0.5;
+.barra2__chatbot input{
+    width: 100%;
+    background-color: #5B8FB9;
+    border-radius: 5px;
+    border: none;
+    padding: 0px 20px;
+    line-height: 100%;
+    height: 100%;
+}
+
+.barra2__chatbot input::placeholder {
+    color: white;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) {
+
+}
+
+/*Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
