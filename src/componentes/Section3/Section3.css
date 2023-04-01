@@ -43,7 +43,23 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 600px) {
+    .container{
+        font-size: 1em;
+    }
 
+    .formas__investir__texto{
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    
+    .formas__investir img{
+        margin-top: 3em;
+        width: 130px;
+        box-sizing: border-box;
+        justify-self: center;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

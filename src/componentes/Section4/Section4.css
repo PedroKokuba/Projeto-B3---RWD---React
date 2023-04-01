@@ -30,7 +30,17 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 600px) {
+    .definicao__ipo {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        list-style-type: none;
+    }
 
+    .container__ipo img{
+        width: 300px;
+        padding: 1em;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

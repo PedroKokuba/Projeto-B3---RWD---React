@@ -4,7 +4,7 @@ function Section3(){
     
     return(
         <section  className="formas__investir">
-            <p>Temos diversas formas para conquistarmos nossos sonhos</p>
+            <h2>Temos diversas formas para conquistarmos nossos sonhos</h2>
                 <div className="formas__investir__texto">
     
                 <div className='container'>

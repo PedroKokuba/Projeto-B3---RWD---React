@@ -19,7 +19,10 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 600px) {
-
+    .funcionamento__ipo h2{
+        text-align: center;
+        margin: 2em 1em 2em;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

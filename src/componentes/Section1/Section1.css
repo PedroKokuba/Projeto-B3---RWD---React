@@ -47,9 +47,14 @@ body{
 
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 600px) {
+    body{
+        font-size: 1.1em;
+    }
+
     .principal{
         background-size: cover;
         height:50vh;
+        padding: 2.5em 1.1em;
     }
 }
 

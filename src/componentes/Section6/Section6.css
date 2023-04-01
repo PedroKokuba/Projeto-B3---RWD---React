@@ -19,7 +19,9 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 600px) {
-
+    li{
+        margin-bottom: 0.2em;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
