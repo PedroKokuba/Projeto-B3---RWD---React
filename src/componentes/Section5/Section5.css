@@ -27,20 +27,39 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (min-width: 600px) {
-
+    .funcionamento__ipo h2{
+        text-align: center;
+        margin: 2em 1em 2em;
+    }
 }
 
 /*Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px) {
-
+    .funcionamento__ipo p{
+        font-size: 1.2em;
+    }
+    
+    .funcionamento__ipo h2{
+        text-align: center;
+        margin: 2em 1em 2em;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media (min-width: 992px) {
-
+    .funcionamento__ipo p{
+        font-size: 1.4em;
+    }
+    .funcionamento__ipo h2{
+        text-align: center;
+        margin: 2em 1em 2em;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+    .funcionamento__ipo h2{
+        text-align: center;
+        margin: 2em 1em 2em;
+    }
 }

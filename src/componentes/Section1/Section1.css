@@ -60,7 +60,12 @@ body{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (min-width: 600px) {
-
+    .principal{
+        font-size: 1em;
+        background-size: cover;
+        height:50vh;
+        padding: 2em 2em;
+    }
 }
 
 /*Medium devices (landscape tablets, 768px and up) */
@@ -72,10 +77,16 @@ body{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media (min-width: 992px) {
-
+    .principal{
+        font-size: 1.2em;
+        height: 80vh;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+    .principal{
+        height: 100vh;
+        font-size: 1.5em;
+    }
 }

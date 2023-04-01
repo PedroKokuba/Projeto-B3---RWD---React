@@ -58,25 +58,44 @@
         align-self: center;
         margin: auto;
     }
-    .barra2__chatbot{
-        align-self: center;
-        box-sizing: border-box;
+
+    .barra2__chatbot input{
+        font-size: 0.7em;
     }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (min-width: 600px) {
-
+    .chatbot__mensagem{
+        font-size: 0.8em;
+        box-sizing: border-box;
+        align-self: center;
+        margin: auto;
+    }
+    
+    .barra2__chatbot input{
+        font-size: 0.8em;
+    }
 }
 
 /*Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px) {
+    .chat p {
 
+    }
+    .chatbot__mensagem{
+        font-size: 0.9em;
+        box-sizing: border-box;
+        margin: 0 1.2em;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media (min-width: 992px) {
-
+    .chat p {
+        font-size: 1.2em;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
