@@ -81,9 +81,6 @@
 
 /*Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px) {
-    .chat p {
-
-    }
     .chatbot__mensagem{
         font-size: 0.9em;
         box-sizing: border-box;
