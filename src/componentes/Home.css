@@ -1,13 +1,10 @@
-
-
-body{
+.pagina__inicio{
     color: #B6EADA;
-    height: 100%;
-}
-
-section{
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    margin-top: 8em;
+    align-items: center;
+    margin-top: 4em;
 }
 
 h1{
@@ -19,7 +16,6 @@ h1{
 .container__abertura__subtitulo{
     font-size: 1.2em;
     padding-bottom: 0.5em;
-    margin-bottom: 2.5em;
 }
 
 .container__abertura__botao{
@@ -37,6 +33,10 @@ h1{
 
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 600px) {
+    .pagina__inicio{
+        margin-top: 12em;
+    }
+
     h1{
         font-size: 1.2em;
     }
@@ -53,6 +53,10 @@ h1{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (min-width: 600px) {
+    .pagina__inicio{
+        margin-top: 8em;
+    }
+
     h1{
         font-size: 1.2em;
     }
@@ -70,8 +74,14 @@ h1{
 /*Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px) {
     h1{
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
+
+    .container__abertura__subtitulo{
+
+        font-size: 1em;
+    }
+
     section{
         margin-top: 6em;
     }
@@ -81,11 +91,16 @@ h1{
     }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
+ /* Large devices (laptops/desktops, 992px and up) */
 @media (min-width: 992px) {
     h1{
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
+
+    .container__abertura__subtitulo{
+        font-size: 1em;
+    }
+
     section{
         margin-top: 10em;
     }
@@ -93,11 +108,8 @@ h1{
     .container__abertura__subtitulo{
         padding: 1.4em;
     }
-}
+} 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    .container__abertura__subtitulo{
-        padding: 1.7em;
-    }
 }
